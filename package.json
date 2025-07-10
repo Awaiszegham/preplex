@@ -1,0 +1,35 @@
+{
+  "name": "env2",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.44.0",
+    "axios": "^1.10.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "p-retry": "^5.1.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "winston": "^3.10.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-jest": "^30.0.4",
+    "eslint": "^8.57.0",
+    "jest": "^30.0.0"
+  },
+  "bin": {
+    "perx": "./src/index.js"
+  }
+}
